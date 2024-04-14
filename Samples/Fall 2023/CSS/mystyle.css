@@ -1,0 +1,131 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+.logo img {
+    height: 200px;
+    margin-left: 60px;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+    padding: 20px;
+}
+#footer{
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    background-color: #06A2C8;
+}
+.access-containner{
+display: flex;
+
+margin-bottom: 70px;
+margin-left: 70px;
+
+}
+.access-describe{
+display: flex;
+
+}
+.access-describe img:nth-child(1){
+    width: 300px;   
+    height: 272px;
+
+    }
+.access-img{
+margin-top: 20px;
+}
+.access-words{
+margin-left: 20px;
+margin-right: 20px;
+font-size: 20px;
+width: 500px; 
+
+
+}
+.access-words h3{
+    margin-bottom: 0;
+}
+.access-words p:nth-child(3) {
+color: orangered;
+}
+.access-words p{
+    margin-top: 0;
+}
+.best-seller{
+    display: flex;
+}
+.best-seller-left{
+      width: 50%;
+      margin-left: 70px;
+}
+.best-seller-left img{
+    width: 100%;
+    
+}
+.best-seller-right{
+    width: 50%;
+    padding-left: 50px;
+    font-size: 20px;
+}
+.best-seller-right h2{
+    color: #06A2C8;
+}
+.best-seller-right p{
+    border-bottom: 1px solid black;
+}
+.banner {
+    display: flex;
+}
+.banner-img{
+    width: 60%;
+}
+.banner-img img{
+    width: 100%;
+    height: 1000px
+}
+.register{
+    width: 40%;
+    margin-left: 30px;
+}
+.item{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    height: 35px;
+}
+.item input, .item select , .item textarea{
+    width: 100%;
+    margin-right: 10%;
+}
+
+.button input{
+    color: white;
+    background: orange;
+    border: solid 1px;
+    width: 140px;
+    height: 50px;    
+    border-radius: 5px;
+}
+.button{
+    margin-top: 40px;
+    margin-left: 160px;
+}
+.name{
+    width: 50%;
+    color: orangered;
+    font-size: 18px;
+}
+.item:nth-child(4){
+    height: 300px;
+}
+.item:nth-child(4) label{
+    padding-top: 280px;
+}
+.content-head{
+    color: #06A2C8;
+}
