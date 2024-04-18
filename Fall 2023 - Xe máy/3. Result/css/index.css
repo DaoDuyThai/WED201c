@@ -11,101 +11,91 @@ body {
     align-items: flex-end;
 }
 
-@media only screen and (max-width: 768px) {
-    .header {
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
-.header-title {
+.header-title{
     display: flex;
     justify-content: center;
 }
 
-.header-title h3 {
+.header-title h3{
     color: red;
     font-style: italic;
 }
 
-.header-logo {
+.header-logo{
     display: flex;
     justify-content: center;
     margin: 10px auto;
 }
 
-.header-logo img {
+.header-logo img{
     width: 150px;
     height: 110px;
 }
 
-.menu {
+.menu{
     display: flex;
     justify-content: center;
-    background-color: #10c0c3;
+    background-color: #0EC0C3;
     height: 50px;
 }
 
-.menu li.active {
-    background-color: #ED8116;
+.menu li.active{
+    background-color: #ed8116;
 }
 
-@media only screen and (max-width: 768px) {
+.airblade h2{
+    text-align: center;
+    color: #74B3B6;
+}
+
+.img-sub{
+    height: 165px;
+    padding: 5px 0;
+}
+
+.best-seller-title{
+    text-align: center;
+    color: #74B3B6;
+}
+
+.motor-image{
+    width: 360px;
+    height: 342px;
+}
+
+.motor-title{
+    color: #D7B9A9
+}
+
+.info-title{
+    text-align: center;
+    color: #74B3B6;
+}
+
+.footer{
+    color: white;
+    background-color: #0EC0C3;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 15px;
+}
+
+@media only screen and (max-width: 426px){
+    .header{
+        flex-direction: column;
+        align-items: center;
+    }
+
     .menu {
         justify-content: flex-end;
         height: max-content;
     }
 
-    .navbar-header {
+    .navbar-header{
         width: 100vw;
-        z-index: 2;
     }
-}
-
-#bs-example-navbar-collapse-1 {
-    background-color: #10c0c3;
-}
-
-.airblade h2 {
-    text-align: center;
-    color: #10c0c3;
-}
-
-.img-sub {
-    padding: 10px 0;
-}
-
-.container div div h1 {
-    text-align: center;
-    color: #10c0c3;
-}
-
-@media only screen and (max-width: 768px) {
-    .best-seller {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .img-sub{
+        width: 690px;
+        height: max-content;
     }
-}
-
-.motor-image {
-    height: 270px;
-    width: 280px;
-}
-
-.motor-version {
-    color: orange;
-}
-
-.info-title {
-    text-align: center;
-    color: #10c0c3;
-}
-
-.footer {
-    color: #fff;
-    padding: 15px 0;
-    text-align: center;
-    background-color: #10c0c3;
-    margin-top: 15px;
 }
