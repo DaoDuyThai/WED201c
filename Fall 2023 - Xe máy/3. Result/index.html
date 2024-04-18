@@ -9,20 +9,20 @@
 	<link href="css/bootstrap.min.css" rel="stylesheet" />
 
 	<!--Embed css here-->
-
+	<link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
-	<div>
+	<div class="container-fluid header-container">
 		<!-- header start -->
-		<div>
-			<div>
+		<div class="header row">
+			<div class="col-md-4 header-title">
 				<h3>Power of Dreams</h3>
 			</div>
-			<div>
+			<div class="col-md-4 header-logo">
 				<img class="img-responsive" src="images/logoHonda.jpg" alt="HonDa Viet Nam" />
 			</div>
-			<div>
+			<div class="col-md-4 header-search">
 				<div class="form-group has-feedback has-search">
 					<span class="glyphicon glyphicon-search form-control-feedback"></span>
 					<input type="text" class="form-control sizesearch" placeholder="Search" />
@@ -32,12 +32,12 @@
 		<!-- header end -->
 
 		<!-- menu start -->
-		<div>
+		<div class="menu">
 			<nav class="navbar bg-primary" role="navigation">
 				<div class="container-fluid">
-					<!-- Brand and toggle get grouped for better mobile display -->
 					<div class="navbar-header">
-						<button type="button" class="navbar-toggle" data-toggle="collapse">
+						<button type="button" class="navbar-toggle" data-toggle="collapse"
+							data-target="#bs-example-navbar-collapse-1">
 							<span class="sr-only">Toggle navigation</span>
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
@@ -62,21 +62,21 @@
 
 
 		<!-- airblade start -->
-		<div>
+		<div class="airblade">
 			<h2>AirBlade 160cc Special 2023</h2>
 
-			<div>
-				<div>
+			<div class="row">
+				<div class="col-md-6">
 					<img class="img-responsive" src="images/Banner01.jpg" alt="Airblade 160cc 2023" />
 				</div>
-				<div>
-					<div>
+				<div class="col-md-6 row">
+					<div class="col-md-6">
 						<img class="img-responsive img-sub" src="images/sub00.jpg" alt="Airblade 160cc 2023" />
 						<img class="img-responsive img-sub" src="images/sub01.jpg" alt="Airblade 160cc 2023" />
 						<img class="img-responsive img-sub" src="images/sub03.jpg" alt="Airblade 160cc 2023" />
 					</div>
 
-					<div>
+					<div class="col-md-6">
 						<img class="img-responsive img-sub" src="images/sub04.jpg" alt="Airblade 160cc 2023" />
 						<img class="img-responsive img-sub" src="images/sub05.jpg" alt="Airblade 160cc 2023" />
 						<img class="img-responsive img-sub" src="images/sub06.jpg" alt="Airblade 160cc 2023" />
@@ -90,31 +90,31 @@
 
 
 	<!-- best seller start -->
-	<div>
+	<div class="container">
 		<div>
 			<div>
 				<h1>BEST SELLER</h1>
 			</div>
 
-			<div>
-				<div>
+			<div class="row best-seller">
+				<div class="col-md-4">
 					<img class="img-responsive motor-image" src="images/lead2023.PNG" alt="Lead 2023" />
-					<h3>Lead 2023</h3>
+					<h3 class="motor-version">Lead 2023</h3>
 					<p>Sale Off : 1,200,000 vnđ</p>
 					<p>Free periodic check-ups : 6</p>
 					<p>Free oil change : 4</p>
 				</div>
-				<div>
+				<div class="col-md-4">
 					<img class="img-responsive motor-image" src="images/vision2923.jpg" alt="Vision 2023" />
-					<h3>Vision 2023</h3>
+					<h3 class="motor-version">Vision 2023</h3>
 					<p>Sale Off : 1,000,000 vnđ</p>
 					<p>Free periodic check-ups : 4</p>
 					<p>Free oil change : 5</p>
 				</div>
 
-				<div>
+				<div class="col-md-4">
 					<img class="img-responsive motor-image" src="images/ab125.jpg" alt="Airblade 2023" />
-					<h3>Vision 2023</h3>
+					<h3 class="motor-version">Vision 2023</h3>
 					<p>Sale Off : 900,000 vnđ</p>
 					<p>Free periodic check-ups : 6</p>
 					<p>Free oil change : 6</p>
@@ -126,14 +126,14 @@
 
 
 	<!-- store and customer start -->
-	<div>
-		<div>
-			<div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-6">
 				<h1 class="info-title">Store Information</h1>
 				<img class="img-responsive" src="images/store.jpg" alt="Head Phattien" />
 			</div>
 
-			<div>
+			<div class="col-md-6">
 				<h1 class="info-title">Customer Information Ordering MotorBike</h1>
 
 				<form>
@@ -177,7 +177,7 @@
 
 		<!-- footer start -->
 		<div>
-			<div>
+			<div class="footer">
 				<p>Email : Phattien@gmail.com</p>
 				<p>Address: 10 Nguyen Cong Tru, Q1 District, HCMC</p>
 				<h5>&copy; Copyright 2021. HondaPhattien.com.vn</h5>

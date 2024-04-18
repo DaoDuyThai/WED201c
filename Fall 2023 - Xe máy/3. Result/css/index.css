@@ -1,0 +1,111 @@
+body {
+    overflow-x: hidden;
+}
+
+.header-container {
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    align-items: flex-end;
+}
+
+@media only screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.header-title {
+    display: flex;
+    justify-content: center;
+}
+
+.header-title h3 {
+    color: red;
+    font-style: italic;
+}
+
+.header-logo {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+.header-logo img {
+    width: 150px;
+    height: 110px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    background-color: #10c0c3;
+    height: 50px;
+}
+
+.menu li.active {
+    background-color: #ED8116;
+}
+
+@media only screen and (max-width: 768px) {
+    .menu {
+        justify-content: flex-end;
+        height: max-content;
+    }
+
+    .navbar-header {
+        width: 100vw;
+        z-index: 2;
+    }
+}
+
+#bs-example-navbar-collapse-1 {
+    background-color: #10c0c3;
+}
+
+.airblade h2 {
+    text-align: center;
+    color: #10c0c3;
+}
+
+.img-sub {
+    padding: 10px 0;
+}
+
+.container div div h1 {
+    text-align: center;
+    color: #10c0c3;
+}
+
+@media only screen and (max-width: 768px) {
+    .best-seller {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.motor-image {
+    height: 270px;
+    width: 280px;
+}
+
+.motor-version {
+    color: orange;
+}
+
+.info-title {
+    text-align: center;
+    color: #10c0c3;
+}
+
+.footer {
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    background-color: #10c0c3;
+    margin-top: 15px;
+}
