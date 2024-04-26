@@ -1,0 +1,38 @@
+.category{
+    display: flex;
+    justify-content: center;
+}
+
+.category h3{
+    text-align: center;
+}
+
+.post {
+    display: flex;
+    margin: 20px 0px;
+    gap: 20px;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    color: white;
+    border: 10px solid red;
+    border-radius: 10px;
+}
+
+.box-container{
+    display: flex;
+    gap: 10px;
+}
+
+@media screen and (max-width: 768px){
+    .post {
+        flex-direction: column;
+    }
+}
+
+.category-container{
+    display: none;
+}
