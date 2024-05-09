@@ -8,7 +8,7 @@
   <link href="css/bootstrap.min.css" rel="stylesheet">
   
   <!--Embed CSS here-->
-  
+  <link rel="stylesheet" href="css/index.css">
   
    
 </head>
@@ -16,17 +16,17 @@
 
 	<div> <!--div container fluid-->
 	
-		<div> <!--content header-->
+		<div class="header"> <!--content header-->
 			
-			<div>
+			<div class="header-title">
 				<h3>Classifieds platform</h3>
 			</div>
 			
-			<div>
+			<div class="header-logo">
 				<img src="images/logo.jpg" alt="Classifieds platform" />
 			</div>
 			
-			<div>
+			<div class="header-search">
 				  <!-- Actual search box -->
 				  <div class="form-group has-feedback has-search">
 					<span class="glyphicon glyphicon-search form-control-feedback"></span>
@@ -42,11 +42,11 @@
 	
 	<!----------------------------------------------------------------------------------------------------------->
 	
-	<div> <!--div container -->
+	<div class="categories-container"> <!--div container -->
 		
-		<div> <!--First line content of 4 categories-->
+		<div class="row categories-line"> <!--First line content of 4 categories-->
 		
-			<div>
+			<div class="col-md-3 category">
 				<a href="#" target="_blank">
 					<img src="images/batdongsan.jpg" alt="real estate" />
 					<h3>Real estate</h3>
@@ -54,7 +54,7 @@
 				
 			</div>
 			
-			<div>
+			<div class="col-md-3 category">
 				<a href="#" target="_blank">
 					<img src="images/dientu.jpg" alt="electronic" />
 					<h3>Electronic</h3>
@@ -62,7 +62,7 @@
 				
 			</div>
 			
-			<div>
+			<div class="col-md-3 category">
 				<a href="#" target="_blank">
 					<img src="images/car.jpg" alt="Car" />
 					<h3>Car</h3>
@@ -70,7 +70,7 @@
 				
 			</div>
 			
-			<div>
+			<div class="col-md-3 category">
 				<a href="#" target="_blank">
 					<img src="images/xega.jpg" alt="Motobike" />
 					<h3>MotoBike</h3>
@@ -80,9 +80,9 @@
 			
 		</div> <!-- Finish First line content of 4 categories-->
 		
-		<div> <!--Second line Content of 4 categories-->
+		<div class="row categories-line"> <!--Second line Content of 4 categories-->
 		
-			<div>
+			<div class="col-md-3 category">
 				<a href="#" target="_blank">
 					<img src="images/thoitrang.jpg" alt="Fashion" />
 					<h3>Fashion</h3>
@@ -90,7 +90,7 @@
 				
 			</div>
 			
-			<div>
+			<div class="col-md-3 category">
 				<a href="#" target="_blank">
 					<img src="images/vieclam.jpg" alt="Job" />
 					<h3>Job</h3>
@@ -98,7 +98,7 @@
 				
 			</div>
 			
-			<div>
+			<div class="col-md-3 category">
 				<a href="#" target="_blank">
 					<img src="images/dịchvu.jpg" alt="Service" />
 					<h3>Service</h3>
@@ -106,7 +106,7 @@
 				
 			</div>
 			
-			<div>
+			<div class="col-md-3 category	">
 				<a href="#" target="_blank">
 					<img src="images/mypham.jpg" alt="cosmetics"/>
 					<h3>Cosmetics</h3>
@@ -123,49 +123,49 @@
 		
 		<div> <!--content banner-->
 			<div>
-				<img src="images/Banner.jpg" alt="Buy and Sell" />
+				<img class="banner" src="images/Banner.jpg" alt="Buy and Sell" />
 			</div>
 		</div><!-- Finish content banner-->
 		
 		<!------------------------------------------------------------------------------------------->
 		
 		<div> <!--content New posts-->
-		
+
 			<div>
 				
-				<h1>New posts</h1>
+				<h1 class="new-post-title">New posts</h1>
 				
 			</div>
 		</div>	<!--Finish content New posts-->
 		
-		<div> <!--First detailed content of New posts-->
+		<div class="posts row"> <!--First detailed content of New posts-->
 			
-			<div>
+			<div class="col-md-6 row post">
 				
-				<div>
+				<div class="col-md-6">
 					<img src="images/phongtro01.jpg" alt="room for rent" />
 				</div>
 				
-				<div>
+				<div class="col-md-6">
 					<p>Area: 5x5</p>
 					<p>Address : 10 Nguyen Xuan Hop - Thu Duc</p>
-					<p>Price: $200</p>
+					<p class="post-price">Price: $200</p>
 					<p>Phone: 0987896666</p>
 					
 				</div>	
 				
 			</div>
 			
-			<div>
+			<div class="col-md-6 row post">
 				
-				<div>
+				<div class="col-md-6">
 					<img src="images/phongtro02.jpg" alt="room for rent" />
 				</div>
 				
-				<div>
+				<div class="col-md-6">
 					<p>Area: 5x4</p>
 					<p>Address : 16/2 Truong Chinh - Tan Binh</p>
-					<p>Price: $220</p>
+					<p class="post-price">Price: $220</p>
 					<p>Phone: 0917896633</p>
 					
 				</div>	
@@ -175,34 +175,34 @@
 			
 		</div> <!-- Finish First detailed content of New posts -->
 		
-		<div> <!--Second detailed content of New posts -->
+		<div class="posts row"> <!--Second detailed content of New posts -->
 			
-			<div>
+			<div class="col-md-6 row post">
 				
-				<div>
+				<div class="col-md-6">
 					<img src="images/camry2021.jpg" alt="Camry 2021" />
 				</div>
 				
-				<div>
+				<div class="col-md-6">
 					<p>Toyota Camry: 2021</p>
 					<p>Color : Blue - Black</p>
-					<p>Price: $50.000</p>
+					<p class="post-price">Price: $50.000</p>
 					<p>Phone: 0987896622</p>
 					
 				</div>	
 				
 			</div>
 			
-			<div>
+			<div class="col-md-6 row post">
 				
-				<div>
+				<div class="col-md-6">
 					<img src="images/LaptopLennovo.jpg" alt="Laptop Lennovo Legion" />
 				</div>
 				
-				<div>
+				<div class="col-md-6">
 					<p>Laptop: Legion core i7</p>
 					<p>Address : 16/2 Truong Chinh - Tan Binh</p>
-					<p>Price: $1400</p>
+					<p class="post-price">Price: $1400</p>
 					<p>Phone: 0917896531</p>
 					
 				</div>	
@@ -213,7 +213,7 @@
 		</div> <!--Finish Second detailed content of New posts -->
 		
 		
-		<div> <!--content footer-->
+		<div class="footer"> <!--content footer-->
 			
 			<div>
 				

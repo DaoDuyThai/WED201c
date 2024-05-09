@@ -1,0 +1,143 @@
+html,
+body,
+:root {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    border-bottom: 2px solid grey;
+}
+
+.header-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.header-title h3 {
+    font-style: italic;
+    color: orange;
+}
+
+.header-logo img {
+    width: 100px;
+    height: 110px;
+}
+
+.header-search {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+.header-search input {
+    width: 400px;
+}
+
+.categories-container {
+    padding: 30px;
+}
+
+.category {
+    width: fit-content;
+}
+
+.category img {
+    border: 7px solid lightgray;
+    border-radius: 12px;
+    width: 120px;
+    height: 120px;
+}
+
+.category h3 {
+    text-align: center;
+}
+
+.categories-line {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner {
+    width: 100%;
+}
+
+.new-post-title {
+    color: aquamarine;
+    margin-left: 10px;
+}
+
+.posts {
+    margin: 20px;
+}
+
+.post img {
+    width: 100%;
+}
+
+.post-price {
+    color: orange;
+}
+
+.footer {
+    width: 100%;
+    color: white;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+}
+
+.footer p {
+    text-align: center;
+}
+
+.footer h5 {
+    text-align: center;
+}
+
+@media screen and (max-width: 769px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-search {
+        justify-content: center;
+    }
+
+    .header-search input {
+        width: 90vw;
+    }
+
+    .categories-line {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .category {
+        width: 90vw;
+    }
+
+    .category img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    
+}
