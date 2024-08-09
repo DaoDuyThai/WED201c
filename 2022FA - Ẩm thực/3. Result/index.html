@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vietnamese Cuisine</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <!--Nội dung Menu-->
+        <nav class="navbar navbar-inverse bg-primary" role="navigation">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+
+                        <li class="active">
+                            <a href="index.html"> <span class="glyphicon glyphicon-home"></span> index</a>
+                        </li>
+
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Health</a></li>
+
+                        <li> <a href="#"><span class="glyphicon glyphicon-envelope"></span> Contact</a> </li>
+                    </ul>
+
+
+                    <form class="navbar-form navbar-right" role="search">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                        <button type="submit" class="btn btn-default">Search</button>
+                    </form>
+
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+        <!--Nội dung Slider-->
+        <div class="slider">
+            <div>
+                <!--Bắt đầu slider-->
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="images/slider_1.jpg" alt="Vietnamese Cuisine">
+                        </div>
+
+                        <div class="item">
+                            <img src="images/slider_2.jpg" alt="Vietnamese Cuisine">
+                        </div>
+
+                        <div class="item">
+                            <img src="images/slider_3.jpg" alt="Vietnamese Cuisine">
+                        </div>
+
+                    </div>
+
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </div>
+                <!--Kết thúc slider-->
+            </div>
+        </div>
+
+        <!-- Nội dung chi tiết-->
+        <div class="dishes row">
+            <div class="col-md-6 row">
+                <!-- Món ăn thứ nhất-->
+                <div class="col-md-6"> <img src="images/tomchien.jpg" class="img-responsive" /></div>
+
+                <div class="col-md-6">
+                    <h2> Fried shrimp</h2>
+                    <p>These fried shrimp are jumbo shrimp coated in seasoned breadcrumbs, then deep fried to golden
+                        brown perfection. The perfect main course or appetizer option that’s even better than what you’d
+                        get at a restaurant!</p>
+
+                </div>
+                <div class="clearfix"> </div>
+                <!--Ngăn không cho hộp tiếp theo chạy lên-->
+            </div>
+
+
+            <div class="col-md-6 row">
+                <!-- Món ăn thứ hai-->
+                <div class="col-md-6"> <img src="images/chaca_thaclac.jpg" class="img-responsive" /></div>
+
+                <div class="col-md-6">
+                    <h2> Crispy fish balls </h2>
+                    <p> Crispy fish balls is a crispy and chewy appetizer food very attractive and easy to make. This
+                        food helps to stimulate the taste when drinking a little more Tiger Beer. </p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="dishes row">
+            <div class="col-md-6 row">
+                <!-- Món ăn thứ ba-->
+                <div class="col-md-6"> <img src="images/goiga.jpg" class="img-responsive" /></div>
+
+                <div class="col-md-6">
+                    <h2> Chicken salad</h2>
+                    <p>The sweet and sour taste mixed together, the aroma of coriander and the sweetness of the chicken
+                        and onions will be a delicious weekend dish for the whole family, the chicken salad is about to
+                        prepare the restaurant, must say This
+                        dish is extremely easy to make and also very suitable for people to eat.</p>
+                </div>
+                <div class="clearfix"> </div>
+                <!--Ngăn không cho hộp tiếp theo chạy lên-->
+            </div>
+
+            <div class="col-md-6 row">
+                <!-- Món ăn thứ tư-->
+                <div class="col-md-6"> <img src="images/thitbo_salad.jpg" class="img-responsive" /></div>
+
+                <div class="col-md-6">
+                    <h2> Thai beef salad </h2>
+                    <p> The delicious salad with beef vinegar oil by fresh, green lettuce mixed with fatty oil and sour
+                        vinegar will stimulate the user's taste. Lettuce leaves young leaves, washed and cut to taste.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!--  Danh sách sản phẩm khuyến mãi-->
+        <div class="button">
+            <div>
+                <form action="#" method="post">
+                    <input onclick="showTable()" type="button" value="View Promotion Food" name="viewfood" />
+                </form>
+
+            </div>
+        </div>
+
+        <div class="table" id="tableid">
+            <h3 style="color: gold;">List of Specialties for Promotion June 2021</h3>
+            <table>
+                <tr class="table-head" style="color: gold;">
+                    <td>Numerical order</td>
+                    <td>The name of food</td>
+                    <td>Price</td>
+
+                </tr>
+                <tr>
+                    <td>01</td>
+                    <td>Fried Pork in sweet & sour dish</td>
+                    <td>$20</td>
+                </tr>
+                <tr>
+                    <td>02</td>
+                    <td>Fried heart & kidney</td>
+                    <td>$25</td>
+                </tr>
+                <tr>
+                    <td>03</td>
+                    <td>Fried "Pho" with chicken</td>
+                    <td>$18</td>
+                </tr>
+                <tr>
+                    <td>04</td>
+                    <td>Mixed Fried rice</td>
+                    <td>$27</td>
+                </tr>
+                <tr>
+                    <td>05</td>
+                    <td>Beef dish served with fried potato</td>
+                    <td>$20</td>
+                </tr>
+                <tr>
+                    <td>06</td>
+                    <td>Fried pigeon with mushroom</td>
+                    <td>$26</td>
+                </tr>
+                <tr>
+                    <td>07</td>
+                    <td>Fried Pigeon with Chilli and Citronella</td>
+                    <td>$19</td>
+                </tr>
+                <tr>
+                    <td>08</td>
+                    <td>Grilled Rabbit with lemon leaf</td>
+                    <td>$16</td>
+                </tr>
+
+            </table>
+        </div>
+
+        <!--nội dung footer-->
+        <div class="footer row">
+            <div class="col-md-8">
+                <ul>
+                    <li>Phone : 0981235670</li>
+                    <li>Address : 50-82 Bui Vien Street, Pham Ngu Lao Ward, District 1, Ho Chi Minh City</li>
+                    <li>Copyright - Vietnamese Cuisine. All rights Reserved.</li>
+                </ul>
+            </div>
+
+            <div class="col-md-4 footer-logo">
+                <a href="#"><img src="images/facebook_1.png" /></a>
+                <a href="#"><img src="images/link_xahoi.png" /></a>
+                <a href="#"><img src="images/Twiter.png" /></a>
+            </div>
+        </div>
+    </div>
+
+    <!--Kết thúc contianer-->
+
+    <!--Thư viên javascript của Bootstrap-->
+    <script src="js/Jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
